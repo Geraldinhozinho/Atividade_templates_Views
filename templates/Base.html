@@ -16,17 +16,17 @@
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="logo" href="index.html">Fluxo<span class="logo-dot">.</span></a>
+      <a class="logo" href="#">Fluxo<span class="logo-dot">.</span></a>
 
       <nav class="site-nav">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="portfolio.html">Portfólio</a></li>
+          <li><a href="{% url 'Home' %}" class="active">Home</a></li>
+          <li><a href="{% url 'Portifolio' %}">Portfólio</a></li>
         </ul>
       </nav>
 
       <div class="header-actions">
-        <a class="btn btn-outline" href="#contato">Fale conosco</a>
+        <a class="btn btn-outline" href="#">Fale conosco</a>
       </div>
     </div>
   </header>
@@ -39,17 +39,17 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a class="logo" href="index.html">Fluxo<span class="logo-dot">.</span></a>
+          <a class="logo" href="#">Fluxo<span class="logo-dot">.</span></a>
           <p>Estúdio criativo independente, especializado em branding e produto digital.</p>
         </div>
 
         <div class="footer-col">
           <h4>Navegação</h4>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio.html">Portfólio</a></li>
-            <li><a href="index.html#sobre">Sobre</a></li>
-            <li><a href="index.html#contato">Contato</a></li>
+            <li><a href="{% url 'Home' %}">Home</a></li>
+            <li><a href="{% url 'Portifolio' %}">Portfólio</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
           </ul>
         </div>
 
@@ -65,8 +65,8 @@
         <div class="footer-col">
           <h4>Contato</h4>
           <ul>
-            <li><a href="mailto:ola@estudiofluxo.com.br">ola@estudiofluxo.com.br</a></li>
-            <li><a href="tel:+5584999990000">(84) 99999-0000</a></li>
+            <li><a href="#">ola@estudiofluxo.com.br</a></li>
+            <li><a href="#">(84) 99999-0000</a></li>
             <li><a href="#">Pau dos Ferros, RN</a></li>
           </ul>
         </div>
